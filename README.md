@@ -20,13 +20,13 @@ Table 1 | A list of neuroimaging tools required for successful use of the UFA to
 | :--------: | :-----------------------------------------------: | :-----------: | :-----------------------------------------: |
 |    CNS     |         https://github.com/cheba-nil/CNS          |    Matlab     |               WMH extraction                |
 |   SPM12    | https://www.fil.ion.ucl.ac.uk/spm/software/spm12/ |    Matlab     |           Required by CNS toolbox           |
-|    FSL     |      https://fsl.fmrib.ox.ac.uk/fsl/fslwiki       |    Matlab     |     Registration module in FSL ‘flirt’      |
+|    FSL     |      https://fsl.fmrib.ox.ac.uk/fsl/fslwiki       |       /       |     Registration module in FSL ‘flirt’      |
 |    ANTs    |           http://stnava.github.io/ANTs/           |       /       | N4 bias field correction in ANTs are needed |
 | FastSurfer |       https://github.com/Deep-MI/FastSurfer       |    Python     |          T1 cortical segmentation           |
 |    WMA     | https://github.com/SlicerDMRI/whitematteranalysis |    Python     |        White matter fiber clustering        |
 | 3D Slicer  |              https://www.slicer.org/              | Linux version |            Required by WMA tool             |
 | FreeSurfer |        https://surfer.nmr.mgh.harvard.edu/        |       /       |          T1 cortical segmentation           |
-|  MRtrix3   |              https://www.mrtrix.org/              |  Linux shell  |              dMRI tractography              |
+|  MRtrix3   |              https://www.mrtrix.org/              | Linux version |              dMRI tractography              |
 
 The recommended computer configurations are listed below (Table 2).
 
@@ -37,7 +37,7 @@ Abbreviations: HDD -- Hard disk drive.
 
 ## Step-by-Step tutorial
 
-For detailed step-by-step tutorials, please see the "UFA_toolbox_tutorial.pptx" to correctly use our UFA toolbox!
+For detailed step-by-step tutorials, please see the "UFA_toolbox_tutorial.pdf" to correctly use our UFA toolbox!
 
 ## Contact
 
