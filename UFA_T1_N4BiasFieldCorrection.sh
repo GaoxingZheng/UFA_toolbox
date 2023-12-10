@@ -23,7 +23,7 @@ N4BiasFieldCorrection -d 3 -v 0 -s 4 -b [180] -c [50x50x50, 0.0 ] -i ${OutputFol
 if [ ! -e ${OutputFolder}/T1/T1w-deGibbs-BiasCo-Brain.nii.gz ]; then
     echo "Running Brain Extraction with antsBrainExtraction"
     antsBrainExtraction.sh -d 3 -a ${OutputFolder}/T1/T1w-deGibbs-BiasCo.nii.gz -e ${AtlasDir}/MNI/MICCAI2012/T_template0.nii.gz -m ${AtlasDir}/MNI/MICCAI2012/T_template0_BrainCerebellumProbabilityMask.nii.gz -f ${AtlasDir}/MNI/MICCAI2012/T_template0_BrainCerebellumRegistrationMask.nii.gz -o T1w-deGibbs-BiasCo-
-    #rm -r ./T1w-deGibbs-BiasCo-
+    rm -r ./T1w-deGibbs-BiasCo-
     mv ./T1w-deGibbs-BiasCo-BrainExtractionBrain.nii.gz ${OutputFolder}/T1/T1w-deGibbs-BiasCo-Brain.nii.gz
     mv ./T1w-deGibbs-BiasCo-BrainExtractionMask.nii.gz ${OutputFolder}/T1/T1w-deGibbs-BiasCo-Mask.nii.gz
     mv ./T1w-deGibbs-BiasCo-BrainExtractionPrior0GenericAffine.mat ${OutputFolder}/T1/T1w-deGibbs-BiasCo-Prior0GenericAffine.mat
