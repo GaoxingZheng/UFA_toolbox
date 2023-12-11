@@ -12,7 +12,7 @@ The UFA toolbox is designed for multimodal magnetic resonance imaging (MRI) anal
 
 ## Requirements
 
-The following table lists the open-source tools that need to be installed in advance to successfully use the UFA toolbox (Table 1). We have detailed instructions on how to successfully install the required open-source tools and how to successfully use the UFA toolbox in the ‘UFA_toolbox_tutorial.pptx’ file.
+The following table lists the open-source tools that need to be installed in advance to successfully use the UFA toolbox (Table 1). We have detailed instructions on how to successfully install the required open-source tools and how to successfully use the UFA toolbox in the ‘UFA_toolbox_tutorial.pdf’ file.
 
 Table 1 | A list of neuroimaging tools required for successful use of the UFA toolbox.
 
