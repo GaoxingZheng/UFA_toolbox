@@ -30,7 +30,7 @@ Table 1 | A list of neuroimaging tools required for successful use of the UFA to
 
 The recommended computer configurations are listed below (Table 2).
 
-Table 2 | Software and hardware configurations are required for the accelerate calculation.
+Table 2 | Software and hardware configurations are required for the accelerated calculation.
 Abbreviations: HDD -- Hard disk drive.  
 
 ![](Table_2.png)
@@ -38,10 +38,11 @@ Abbreviations: HDD -- Hard disk drive.
 ## Step-by-Step tutorial
 
 For detailed step-by-step tutorials, please see the "UFA_toolbox_tutorial.pdf" to correctly use our UFA toolbox!
+Please cite our paper (https://dx.doi.org/10.21037/qims-23-847) if these codes are helpful in your study!
 
 ## Contact
 
-If you have any question, please send the email to zheng_gao_xing@163.com.
+If you have any questions, please send the email to zheng_gao_xing@163.com.
 
 ## Reference
 
@@ -53,13 +54,13 @@ If you have any question, please send the email to zheng_gao_xing@163.com.
 
 [4]	AVANTS B B, TUSTISON N, SONG G. Advanced normalization tools (ANTS) [J]. Insight j, 2009, 2(365): 1-35.
 
-[5]	HENSCHEL L, CONJETI S, ESTRADA S, et al. Fastsurfer-a fast and accurate deep learning based neuroimaging pipeline [J]. NeuroImage, 2020, 219: 117012.
+[5]	HENSCHEL L, CONJETI S, ESTRADA S, et al. Fastsurfer-a fast and accurate deep learning-based neuroimaging pipeline [J]. NeuroImage, 2020, 219: 117012.
 
 [6]	FEDOROV A, BEICHEL R, KALPATHY-CRAMER J, et al. 3D Slicer as an image computing platform for the Quantitative Imaging Network [J]. Magnetic resonance imaging, 2012, 30(9): 1323-41.
 
 [7]	FISCHL B. FreeSurfer [J]. Neuroimage, 2012, 62(2): 774-81.
 
-[8]	TOURNIER J-D, SMITH R, RAFFELT D, et al. MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation [J]. Neuroimage, 2019, 202: 116137.
+[8]	TOURNIER J-D, SMITH R, RAFFELT D, et al. MRtrix3: A fast, flexible, and open software framework for medical image processing and visualization [J]. Neuroimage, 2019, 202: 116137.
 
 [9]	HSU C C H, CHONG S T, KUNG Y C, et al. Integrated diffusion image operator (iDIO): A pipeline for automated configuration and processing of diffusion MRI data [R]: Wiley Online Library, 2023.
 
