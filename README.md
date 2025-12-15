@@ -47,7 +47,7 @@ For foreign users, you can download the UFA toolbox from Google Drive ([https://
 
 ## Contact
 
-If you have any questions, please send the email to zheng_gao_xing@163.com.
+If you have any questions, please send the email to gaoxing.zheng@utsouthwestern.edu.
 
 ## Reference
 
