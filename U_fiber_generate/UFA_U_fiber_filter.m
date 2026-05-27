@@ -5,7 +5,6 @@ function UFA_U_fiber_filter(SWM_folder,Gyrus_folder)
 % EMAIL CONTACT: zheng_gao_xing@163.com
 % DATE: 2022-04-14
 
-
 % addpath('/home/zhenggaoxing/Public/U_fiber_Analysis/U_fiber_generate');
 % 
 % SWM_folder = '/home/zhenggaoxing/Public/FastSurfer/Tutorial/data';
@@ -126,7 +125,7 @@ UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_intrapariet_P_trans.nii
 
 UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_intrapariet_P_trans.nii','rh_S_intrapariet_P_trans.nii','rh_S_intrapariet_P_trans_2_S_intrapariet_P_trans.tck',SWM_folder,Gyrus_folder) % (57) 12,157 : 12,157
 
-UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_parieto_occipital.nii','rh_S_parieto_occipital.nii','rh_S_parieto_occipital_2_S_parieto_occipital..tck',SWM_folder,Gyrus_folder) % (58) 12,166 : 12,166
+UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_parieto_occipital.nii','rh_S_parieto_occipital.nii','rh_S_parieto_occipital_2_S_parieto_occipital.tck',SWM_folder,Gyrus_folder) % (58) 12,166 : 12,166
 
 UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_postcentral.nii','rh_G_postcentral.nii','rh_S_postcentral_2_G_postcentral.tck',SWM_folder,Gyrus_folder) % (59) 12,168 : 12,128
 
@@ -140,7 +139,7 @@ UFA_negibor_gyri_filter('U_fiber_tractography.tck','lh_S_oc_middle_Lunatus.nii',
 
 UFA_negibor_gyri_filter('U_fiber_tractography.tck','lh_S_oc_sup_transversal.nii','lh_S_oc_sup_transversal.nii','lh_S_oc_sup_transversal_2_S_oc_sup_transversal.tck',SWM_folder,Gyrus_folder) % (64) 11,159 : 11,159
 
-UFA_negibor_gyri_filter('U_fiber_tractography.tck','lh_S_parieto_occipital.nii','lh_S_parieto_occipital.nii','lh_S_parieto_occipita_2_S_parieto_occipita.tck',SWM_folder,Gyrus_folder) % (65) 11,166 : 11,166
+UFA_negibor_gyri_filter('U_fiber_tractography.tck','lh_S_parieto_occipital.nii','lh_S_parieto_occipital.nii','lh_S_parieto_occipital_2_S_parieto_occipital.tck',SWM_folder,Gyrus_folder) % (65) 11,166 : 11,166
 
 UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_G_cuneus.nii','rh_G_cuneus.nii','rh_G_cuneus_2_G_cuneus.tck',SWM_folder,Gyrus_folder) % (66) 12,111 : 12,111
 
@@ -152,9 +151,9 @@ UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_Pole_occipital.nii','rh_P
 
 UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_oc_middle_Lunatus.nii','rh_G_occipital_middle.nii','rh_S_oc_middle_Lunatus_2_G_occipital_middle.tck',SWM_folder,Gyrus_folder) % (70) 12,158 : 12,119
 
-UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_oc_sup_transveral.nii','rh_G_occipital_sup.nii','rh_S_oc_sup_transveral_2_G_occipital_sup.tck',SWM_folder,Gyrus_folder) % (71) 12,159 : 12,120
+UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_oc_sup_transversal.nii','rh_G_occipital_sup.nii','rh_S_oc_sup_transversal_2_G_occipital_sup.tck',SWM_folder,Gyrus_folder) % (71) 12,159 : 12,120
 
-UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_oc_sup_transveral.nii','rh_S_oc_sup_transveral.nii','rh_S_oc_sup_transveral_2_S_oc_sup_transveral.tck',SWM_folder,Gyrus_folder) % (72) 12,159 : 12,159
+UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_S_oc_sup_transversal.nii','rh_S_oc_sup_transversal.nii','rh_S_oc_sup_transversal_2_S_oc_sup_transversal.tck',SWM_folder,Gyrus_folder) % (72) 12,159 : 12,159
 
 UFA_negibor_gyri_filter('U_fiber_tractography.tck','lh_S_temporal_sup.nii','lh_G_pariet_inf_Angular.nii','lh_S_temporal_sup_2_G_pariet_inf_Angular.tck',SWM_folder,Gyrus_folder) % (73) 11,174 : 11,125
 
@@ -177,11 +176,5 @@ UFA_negibor_gyri_filter('U_fiber_tractography.tck','lh_G_S_cingul_Ant.nii','lh_G
 UFA_negibor_gyri_filter('U_fiber_tractography.tck','rh_G_S_cingul_Ant.nii','rh_G_S_cingul_Ant.nii','rh_G_S_cingul_Ant_2_G_S_cingul_Ant.tck',SWM_folder,Gyrus_folder) % (82) 12,106 : 12,106
 
 end
-
-
-
-
-
-
 
 
