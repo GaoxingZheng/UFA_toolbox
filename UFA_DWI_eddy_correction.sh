@@ -95,13 +95,13 @@ if [[ $DWI_Image =~ "AP"  &&  $DWI_Image =~ "PA" ]];then
 	
 	fi
 
-elif [[ $DWI_Image =~ "AP" &&  $DWI_Image != "PA" ]];then
+elif [[ $DWI_Image =~ "AP" && ! $DWI_Image =~ "PA" ]];then
 	
 	dwiextract ${OutputFolder}/DWI/Tracking/DWI_AP.mif - -bzero | mrconvert - -coord 3 0 ${OutputFolder}/DWI/Tracking/b0_AP.mif -force
 	
 	dwifslpreproc ${OutputFolder}/DWI/Tracking/degibbs.mif ${OutputFolder}/DWI/Tracking/DWI_preproc.mif -pe_dir AP -rpe_none -nthreads 4 -eddy_options " --data_is_shelled --slm=linear --niter=5 " -force
 
-elif [[ $DWI_Image != "AP" &&  $DWI_Image =~ "PA" ]];then
+elif [[ ! $DWI_Image =~ "AP" &&  $DWI_Image =~ "PA" ]];then
 	
 	dwiextract ${OutputFolder}/DWI/Tracking/DWI_PA.mif - -bzero | mrconvert - -coord 3 0 ${OutputFolder}/DWI/Tracking/b0_PA.mif -force
 	
