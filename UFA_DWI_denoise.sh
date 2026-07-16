@@ -81,7 +81,7 @@ if [[ $DWI_Image =~ "AP"  &&  $DWI_Image =~ "PA" ]];then
 	
 	fi
 
-elif [[ $DWI_Image =~ "AP" &&  $DWI_Image != "PA" ]];then
+elif [[ $DWI_Image =~ "AP" && ! $DWI_Image =~ "PA" ]];then
 	
 	bash ./UFA_correct_bval.sh ${OutputFolder}/DWI/AP/*.bval
 	
@@ -89,7 +89,7 @@ elif [[ $DWI_Image =~ "AP" &&  $DWI_Image != "PA" ]];then
 	
 	mrconvert ${OutputFolder}/DWI/Tracking/DWI_AP.mif ${OutputFolder}/DWI/Tracking/dwi.mif -force
 
-elif [[ $DWI_Image != "AP" &&  $DWI_Image =~ "PA" ]];then
+elif [[ ! $DWI_Image =~ "AP" &&  $DWI_Image =~ "PA" ]];then
 	
 	bash ./UFA_correct_bval.sh ${OutputFolder}/DWI/PA/*.bval
 
