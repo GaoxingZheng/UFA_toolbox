@@ -62,14 +62,16 @@ if [[ $DWI_Image =~ "AP"  &&  $DWI_Image =~ "PA" ]];then
 	dcm2niix -f AP -o ${OutputFolder}/DWI/AP -z y ${InputFolder}/*DTI_AP*
 	dcm2niix -f PA -o ${OutputFolder}/DWI/PA -z y ${InputFolder}/*DTI_PA*
 
-elif [[ $DWI_Image =~ "AP" &&  $DWI_Image != "PA" ]];then
-	
-	mkdir ${OutputFolder}/DWI/AP
+elif [[ $DWI_Image =~ "AP" && ！$DWI_Image =~ "PA" ]];then
+
+	echo "Only AP DTI data will be processed."
+	mkdir -p ${OutputFolder}/DWI/AP
 	dcm2niix -f AP -o ${OutputFolder}/DWI/AP -z y ${InputFolder}/*${DWI_Image}*
 
-elif [[ $DWI_Image != "AP" &&  $DWI_Image =~ "PA" ]];then
+elif [[ ! $DWI_Image =~ "AP" &&  $DWI_Image =~ "PA" ]];then
 	
-	mkdir ${OutputFolder}/DWI/PA
+	echo "Only PA DTI data will be processed."
+	mkdir -p ${OutputFolder}/DWI/PA
 	dcm2niix -f PA -o ${OutputFolder}/DWI/PA -z y ${InputFolder}/*${DWI_Image}*
 
 fi
