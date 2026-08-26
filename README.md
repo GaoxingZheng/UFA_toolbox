@@ -40,7 +40,7 @@ Abbreviations: HDD -- Hard disk drive.
 For detailed step-by-step tutorials, please see the "UFA_toolbox_tutorial.pdf" to correctly use our UFA toolbox!
 Please cite our paper (https://dx.doi.org/10.21037/qims-23-847) if these codes are helpful in your study!
 
-### UFA toolbox download link
+### UFA toolbox download link （latest version: 2026-07）
 
 For Chinese users, you can download the UFA toolbox from BaiduNet Disk (link: https://pan.baidu.com/s/1nSwxoQtRrrbeiO3-bQis0w; password: v9uw).
 For foreign users, you can download the UFA toolbox from Google Drive ([https://drive.google.com/file/d/1Xx3jxQIusQUAF9Ajy-AFQY_8SI-_7Nah/view?usp=sharing](https://drive.google.com/file/d/1Xx3jxQIusQUAF9Ajy-AFQY_8SI-_7Nah/view?usp=sharing)).
